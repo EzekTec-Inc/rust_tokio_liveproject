@@ -1,0 +1,11 @@
+[package]
+name = "rust_tokio_liveproject"
+version = "0.1.0"
+authors = ["Stephen C. Ezekwem <stephen.ezekwem@ezektec.com"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.1.1", features = ["full"] }
+hyper = { version = "0.14", features = ["full"] }
